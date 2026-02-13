@@ -1,0 +1,68 @@
+/* =============================== */
+/* ===== BOTTOM SERVICES STRIP === */
+/* =============================== */
+
+.services-strip {
+  width: 100%;
+  background: #F3F3F3;
+  padding: 60px 0;
+}
+
+.strip-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 40px;
+}
+
+.strip-item {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 18px;
+
+  color: #2B3674;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ICON STYLE */
+.strip-item svg {
+  stroke: #2B3674;
+  stroke-width: 1.5;
+}
+
+/* HOVER EFFECT (matches premium UI feel) */
+.strip-item:hover {
+  transform: translateY(-4px);
+}
+@media (max-width: 1024px) {
+  .strip-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .strip-item {
+    flex: 0 0 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .strip-item {
+    flex: 0 0 100%;
+  }
+}

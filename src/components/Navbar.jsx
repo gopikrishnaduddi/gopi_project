@@ -16,11 +16,40 @@ function Navbar() {
         <li>Contact Us</li>
       </ul>
 
-      <button className="btn-primary">
+      <button
+  style={{
+    width: "200.83px",
+    height: "51px",
+    background: "#1e2a78",
+    border: "none",
+    borderRadius: "50px",
+    padding: "0 12px 0 24px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    color: "#ffffff",
+    fontSize: "16px",
+    fontWeight: "600",
+    cursor: "pointer"
+  }}
+>
   <span>Get Started</span>
 
-  <div className="icon-circle">
-    <span>→</span>
+  <div
+    style={{
+      width: "38px",
+      height: "38px",
+      background: "#ffffff",
+      borderRadius: "50%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      color: "#1e2a78",
+      fontSize: "18px",
+      fontWeight: "600"
+    }}
+  >
+    ↗
   </div>
 </button>
     </nav>
