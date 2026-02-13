@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.btn-primary {
+  width: 200.83px;
+  height: 51px;
+
+  background: #1e2a78;
+  border: none;
+  border-radius: 50px;
+
+  padding: 0 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Gradient on hover (Figma style) */
+.btn-primary:hover {
+  background: linear-gradient(90deg, #3b2fff, #5f3bff);
+}
+
+/* Arrow circle */
+.icon-circle {
+  width: 35px;
+  height: 35px;
+
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+/* Arrow */
+.icon-circle span {
+  color: #1e2a78;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+/* Hover arrow movement */
+.btn-primary:hover .icon-circle {
+  transform: translateX(4px);
+}
+
+.btn-secondary {
+  border: 2px solid #273c8f;
+  color: #273c8f;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+.hero-left {
+  max-width: 620px;
+}
+
+.badge {
+  display: inline-block;
+
+  background: #E9E4FF;      /* exact soft lavender */
+  color: #5A4BFF;           /* purple text */
+
+  padding: 8px 18px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  letter-spacing: 0.2px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.services {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 16px 22px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(100, 100, 255, 0.2);
+  font-weight: 500;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #4b4b4b;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/* RIGHT SIDE ECOSYSTEM */
+
+.hero-right {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.ecosystem-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(220, 200, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.hero {
+  position: relative;
+}
+
+/* Floating Ball */
+.hero-ball {
+  position: absolute;
+  top: 10px;      /* adjust if needed */
+  left: 80px;      /* adjust if needed */
+  width: 130px;    /* resize if needed */
+}
