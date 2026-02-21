@@ -1,0 +1,268 @@
+.lh-wrapper {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== TOP BAR ===== */
+
+.lh-topbar {
+  height: 44px;
+  background: #1fa8a3;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+  font-size: 14px;
+}
+
+.lh-topbar-left,
+.lh-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lh-pipe {
+  width: 1px;
+  height: 14px;
+  background: rgba(255,255,255,0.6);
+  margin: 0 14px;
+}
+
+/* ===== NAVBAR ===== */
+
+.lh-navbar {
+  height: 95px;
+  background: #2f3c84;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+.lh-logo-wrapper {
+  background: #fff;
+  padding: 22px 42px;
+  border-radius: 12px;
+}
+
+.lh-logo-wrapper img {
+  height: 45px;
+}
+
+.lh-nav-menu {
+  display: flex;
+  gap: 55px;
+}
+
+.lh-nav-menu a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lh-active {
+  color: #1fa8a3;
+}
+
+.lh-start-btn {
+  background: #f4a340;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.lh-arrow-box {
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== HERO ===== */
+
+.lh-hero {
+  position: relative;
+  height: 720px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.lh-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+
+.lh-left {
+  position: relative;
+  color: #fff;
+  max-width: 600px;
+}
+
+.lh-title {
+  font-size: 64px;
+  margin: 20px 0;
+}
+
+/* ===== FORM ===== */
+
+.lh-form {
+  position: relative;
+  margin-left: auto;
+  width: 420px;
+  padding: 40px;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+.lh-input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.45);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.lh-updates-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.lh-whatsapp {
+  color: #25D366;
+}
+
+.lh-toggle {
+  width: 44px;
+  height: 24px;
+  background: #999;
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  transition: 0.3s;
+}
+
+.lh-toggle-active {
+  background: #25D366;
+}
+
+.lh-toggle-circle {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+.lh-toggle-active .lh-toggle-circle {
+  left: 22px;
+}
+
+.lh-book-btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background: #1fa8a3;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.lh-price-box {
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.lh-old {
+  text-decoration: line-through;
+  opacity: 0.7;
+  margin-right: 6px;
+}
+
+.lh-new {
+  color: #39FF14;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.lh-experience {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+/* ===== LEFT HERO FIXED STYLE ===== */
+
+.lh-left {
+  position: relative;
+  color: #ffffff;
+  max-width: 650px;
+  z-index: 2;
+}
+
+.lh-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.lh-title {
+  font-size: 72px;          /* Bigger like original */
+  font-weight: 700;         /* Bold like original */
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+.lh-list {
+  margin-bottom: 30px;
+  padding-left: 18px;
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+.lh-list li {
+  margin-bottom: 6px;
+}
+
+.lh-availability-btn {
+  background: #1FA8A3;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(31,168,163,0.4);
+}
